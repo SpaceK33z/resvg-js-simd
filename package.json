@@ -1,9 +1,9 @@
 {
-  "name": "@resvg/resvg-js",
+  "name": "@spacek33z/resvg-js",
   "version": "2.6.0",
   "description": "A high-performance SVG renderer and toolkit, powered by Rust based resvg and napi-rs",
   "main": "index.js",
-  "repository": "git@github.com:yisibl/resvg-js.git",
+  "repository": "git@github.com:SpaceK33z/resvg-js-simd.git",
   "license": "MPL-2.0",
   "keywords": [
     "resvg",

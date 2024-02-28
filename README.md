@@ -1,5 +1,7 @@
 # resvg-js
 
+This fork of resvg-js uses SIMD WASM, which gives around a 2x performance increase, measured on a real-world project.
+
 <a href="https://github.com/yisibl/resvg-js/actions"><img alt="GitHub CI Status" src="https://github.com/yisibl/resvg-js/workflows/CI/badge.svg?branch=main"></a>
 <a href="https://www.npmjs.com/package/@resvg/resvg-js"><img src="https://img.shields.io/npm/v/@resvg/resvg-js.svg?sanitize=true" alt="@resvg/resvg-js npm version"></a>
 <a href="https://npmcharts.com/compare/@resvg/resvg-js?minimal=true"><img src="https://img.shields.io/npm/dm/@resvg/resvg-js.svg?sanitize=true" alt="@resvg/resvg-js downloads"></a>
@@ -38,13 +40,7 @@ Alipay(支付宝)
 ### Node.js
 
 ```shell
-npm i @resvg/resvg-js
-```
-
-### Browser(Wasm)
-
-```html
-<script src="https://unpkg.com/@resvg/resvg-wasm"></script>
+npm i @spacek33z/resvg-wasm-simd
 ```
 
 ## Docs

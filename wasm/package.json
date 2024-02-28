@@ -1,5 +1,5 @@
 {
-  "name": "@resvg/resvg-wasm",
+  "name": "@spacek33z/resvg-wasm-simd",
   "version": "2.6.0",
   "description": "A high-performance SVG renderer and toolkit, powered by Rust based resvg and napi-rs",
   "main": "index.js",
@@ -39,6 +39,6 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "git@github.com:yisibl/resvg-js.git",
+  "repository": "git@github.com:SpaceK33z/resvg-js-simd.git",
   "sideEffects": false
 }
